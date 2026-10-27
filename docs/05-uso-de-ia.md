@@ -1,9 +1,11 @@
-# 5. Uso de assistentes de IA
+# Uso de IA
 
-<!-- O uso de assistentes de IA é permitido. Registre cada uso relevante: o que foi
-pedido, o que o assistente sugeriu e o que a dupla aceitou ou descartou, com o motivo.
-Se a dupla não usou nenhum assistente, escreva isso. -->
+Assistente utilizado: Claude (Anthropic), via chat, durante a atividade do CP3.
 
-| Entrega | O que foi pedido | O que o assistente sugeriu | Decisão da dupla | Motivo |
+| # | O que pedimos ao assistente | O que ele sugeriu | Decisão | Motivo |
 |---|---|---|---|---|
-| | | | | |
+| 1 | Pedimos para fazer tudo em uma só máquina | Pular convite de colaborador; usar Co-authored-by para o colega aparecer nos commits | (Aceita)
+| 2 | Perguntamos se o `ls docs` estava correto | Confirmou os 5 arquivos e alertou que a pasta `C:\windows\system32` é inadequada para projetos | (Aceita) |
+| 3 | Pedimos para preencher a identificação da dupla | Tabela com nomes e RMs e comandos de commit | Aceita |
+| 4 | Não entendemos onde criar o `pyproject.toml` | Explicou a estrutura de pastas e o comando para criar o arquivo | Aceita | Era dúvida de organização do projeto |
+| 8 | Erro de `git push` rejeitado | Usar `git pull --rebase` e depois `git push` | (Aceita)
